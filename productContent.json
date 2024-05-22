@@ -1,0 +1,64 @@
+{
+    "productID": "123456",
+    "name": "Wireless Noise Cancelling Headphones",
+    "brand": "SoundMax",
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "description": "High-quality wireless noise-cancelling headphones with superior sound and comfort. Ideal for music lovers and frequent travelers.",
+    "price": 299.99,
+    "currency": "USD",
+    "availability": "In Stock",
+    "stockQuantity": 58,
+    "rating": 4.7,
+    "reviews": [
+      {
+        "reviewID": "78910",
+        "username": "musiclover123",
+        "rating": 5,
+        "comment": "Amazing sound quality and noise cancellation. Worth every penny!",
+        "date": "2024-05-01"
+      },
+      {
+        "reviewID": "78911",
+        "username": "traveler456",
+        "rating": 4,
+        "comment": "Great for traveling. Very comfortable.",
+        "date": "2024-05-05"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product123456_main.jpg",
+        "altText": "Wireless Noise Cancelling Headphones - Main View"
+      },
+      {
+        "url": "https://example.com/images/product123456_side.jpg",
+        "altText": "Wireless Noise Cancelling Headphones - Side View"
+      },
+      {
+        "url": "https://example.com/images/product123456_carrying_case.jpg",
+        "altText": "Wireless Noise Cancelling Headphones - Carrying Case"
+      }
+    ],
+    "specifications": {
+      "color": "Black",
+      "batteryLife": "20 hours",
+      "weight": "250g",
+      "bluetoothVersion": "5.0",
+      "range": "30 feet",
+      "warranty": "2 years"
+    },
+    "relatedProducts": [
+      {
+        "productID": "123457",
+        "name": "Wireless Earbuds",
+        "url": "https://example.com/product/123457"
+      },
+      {
+        "productID": "123458",
+        "name": "Over-Ear Headphones",
+        "url": "https://example.com/product/123458"
+      }
+    ]
+  }
+  

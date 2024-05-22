@@ -1,0 +1,133 @@
+[
+    {
+      "productID": "123456",
+      "name": "Wireless Noise Cancelling Headphones",
+      "brand": "SoundMax",
+      "category": "Electronics",
+      "price": 299.99,
+      "currency": "USD",
+      "rating": 4.7,
+      "image": {
+        "url": "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTExL3Jhd3BpeGVsX29mZmljZV8zMF9waG90b2dyYXBoX29mX2Ffd2lyZWxlc3NfaGVhZHBob25lX21vY2t1cF9taV8xZjM2MzM2OS02MzhmLTQ0OTktYjJmNC04NTI2YWJjN2YzYzQucG5n.png" ,
+        "altText": "Wireless Noise Cancelling Headphones - Main View"
+      }
+    },
+    {
+      "productID": "123457",
+      "name": "Smart Watch",
+      "brand": "TechWear",
+      "category": "Wearables",
+      "price": 199.99,
+      "currency": "USD",
+      "rating": 4.5,
+      "image": {
+        "url": 	"https://images.unsplash.com/photo-1544117519-31a4b719223d?w=100&amp",
+        "altText": "Smart Watch - Main View"
+      }
+    },
+    {
+      "productID": "123458",
+      "name": "4K Ultra HD TV",
+      "brand": "Sony",
+      "category": "Electronics",
+      "price": 799.99,
+      "currency": "USD",
+      "rating": 4.8,
+      "image": {
+        "url": "https://www.dummies.com/wp-content/uploads/502933.image0.jpg",
+        "altText": "4K Ultra HD TV - Main View"
+      }
+    },
+    {
+      "productID": "123459",
+      "name": "Bluetooth Speaker",
+      "brand": "SoundMax",
+      "category": "Audio",
+      "price": 49.99,
+      "currency": "USD",
+      "rating": 4.3,
+      "image": {
+        "url": "data:image/jpeg;base64,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",
+        "altText": "Bluetooth Speaker - Main View"
+      }
+    },
+    {
+      "productID": "123460",
+      "name": "Laptop 15-inch",
+      "brand": "CompTech",
+      "category": "Computers",
+      "price": 1099.99,
+      "currency": "USD",
+      "rating": 4.6,
+      "image": {
+        "url": "https://concepts2code.com/wp-content/uploads/2021/03/dummy-laptop-image-1000x1000-1.jpg",
+        "altText": "Laptop 15-inch - Main View"
+      }
+    },
+    {
+      "productID": "123461",
+      "name": "Fitness Tracker",
+      "brand": "FitLife",
+      "category": "Wearables",
+      "price": 79.99,
+      "currency": "USD",
+      "rating": 4.4,
+      "image": {
+        "url": "https://i5.walmartimages.com/asr/717150af-cfbe-4bde-bfc4-e78cce8b3ff7_1.4e0b71f2ff27732cc75e07079afc7583.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+        "altText": "Fitness Tracker - Main View"
+      }
+    },
+    {
+      "productID": "123462",
+      "name": "Smartphone",
+      "brand": "MobilePro",
+      "category": "Electronics",
+      "price": 699.99,
+      "currency": "USD",
+      "rating": 4.5,
+      "image": {
+        "url": "https://example.com/images/product123462_main.jpg",
+        "altText": "Smartphone - Main View"
+      }
+    },
+    {
+      "productID": "123463",
+      "name": "Wireless Earbuds",
+      "brand": "SoundMax",
+      "category": "Audio",
+      "price": 129.99,
+      "currency": "USD",
+      "rating": 4.2,
+      "image": {
+        "url": "https://example.com/images/product123463_main.jpg",
+        "altText": "Wireless Earbuds - Main View"
+      }
+    },
+    {
+      "productID": "123464",
+      "name": "Gaming Console",
+      "brand": "GameBox",
+      "category": "Gaming",
+      "price": 499.99,
+      "currency": "USD",
+      "rating": 4.9,
+      "image": {
+        "url": "https://example.com/images/product123464_main.jpg",
+        "altText": "Gaming Console - Main View"
+      }
+    },
+    {
+      "productID": "123465",
+      "name": "Digital Camera",
+      "brand": "PhotoSnap",
+      "category": "Cameras",
+      "price": 599.99,
+      "currency": "USD",
+      "rating": 4.6,
+      "image": {
+        "url": "https://example.com/images/product123465_main.jpg",
+        "altText": "Digital Camera - Main View"
+      }
+    }
+  ]
+  

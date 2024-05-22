@@ -1,0 +1,118 @@
+.main{
+    display:grid;
+    /* no of rows in grid */
+    width :700x;
+    height: 100vh;
+    grid-template-rows: 1fr 6fr 6fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+/* defining properties for class head */
+.head{
+    /* align in same line */
+    display: flex;
+    justify-content: space-between;
+    /* defining colour property for head*/
+    background-color:black;
+    /* text color - white */
+    color:white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+} 
+h1{
+    display: inline;
+}
+img{
+    vertical-align: bottom;
+}
+
+.content {
+    background-color: cornsilk;
+}
+
+.footer{
+    background-color:rgba(35, 35, 123, 0.969);
+    color: white;
+}
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+.product-image {
+    width: 100px; /* Set the width you want */
+    height: 100px; /* Maintain aspect ratio */
+}
+.icon-cart{
+    display: flex;
+    align-items: center;
+    /* defining position */
+    position: relative;
+    margin-right: 20px;
+}
+.icon-cart span{
+    display: block;
+    /* background color red; */
+    /* background-color: black; */
+    /* border should be circle */
+    border-radius: 50%;
+    position: absolute;
+    /* defining position of the span */
+    top:50%;
+    right: -20%;
+}
+
+.addCart{
+    cursor: pointer;
+}
+
+.cartTab{
+    width:400px;
+    /* background color should be white */
+    background-color: #353432;
+    /* text color should be white */
+    color: white;
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom:0;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+}
+
+.cartTab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+.cartTab .btn{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.cartTab .btn button{
+    background-color: #e8bc0e;
+    border:none;
+    font-family: Poppins;
+    /* font thickens */
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cartTab .btn .close{
+    background-color: #eee;
+}
+
+.cartTab .contents .item .image img {
+    width: 200px;
+    height: 200px;
+}
+
+.cartTab .btn .checkOut{
+    height: 100%;
+    width: 100%;
+}

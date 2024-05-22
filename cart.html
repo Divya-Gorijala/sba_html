@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="checkout.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+            function renderCheckoutTable() {
+                const tableBody = document.querySelector('#checkoutTable tbody');
+                tableBody.innerHTML = ''; // Clear previous content
+
+                cart.forEach(product => {
+                    const row = document.createElement('tr');
+
+                    const cellImage = document.createElement('td');
+                    const img = document.createElement('img');
+                    img.src = product.image.url;
+                    img.alt = product.image.altText;
+                    img.style.width = "50px"; // Set image width
+                    cellImage.appendChild(img);
+                    row.appendChild(cellImage);
+
+                    const cellName = document.createElement('td');
+                    cellName.textContent = product.name;
+                    row.appendChild(cellName);
+
+                    const cellBrand = document.createElement('td');
+                    cellBrand.textContent = product.brand;
+                    row.appendChild(cellBrand);
+
+                    const cellCategory = document.createElement('td');
+                    cellCategory.textContent = product.category;
+                    row.appendChild(cellCategory);
+
+                    const cellPrice = document.createElement('td');
+                    cellPrice.textContent = `$${product.price.toFixed(2)}`;
+                    row.appendChild(cellPrice);
+
+                    const cellQuantity = document.createElement('td');
+                    const quantityInput = document.createElement('input');
+                    quantityInput.type = 'number';
+                    quantityInput.value = 1; // Default quantity is 1
+                    quantityInput.min = 1;
+                    cellQuantity.appendChild(quantityInput);
+                    row.appendChild(cellQuantity);
+
+                    tableBody.appendChild(row);
+                });
+            }
+            function proceedToPayment() {
+                // Clear the cart in local storage
+                localStorage.removeItem('cart');
+                // Redirect to the payment page
+                window.location.href = 'payment.html';
+            }
+
+            renderCheckoutTable();
+        });
+    </script>
+</head>
+<body>
+    <h1>Checkout</h1>
+    <table id="checkoutTable" border="1">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Brand</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Product rows will be inserted here dynamically -->
+        </tbody>
+    </table>
+    <div class="footer">
+        <button onclick="window.location.href='home.html'">Continue Shopping</button>
+        <button onclick="window.location.href='payment.html'">Proceed to Payment</button>
+    </div>
+</body>
+</html>
+

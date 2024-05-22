@@ -1,0 +1,31 @@
+Project-Overview
+This project is a simple e-commerce website with functionalities to view products, add them to a cart, proceed to checkout, and enter payment details. The project includes three main pages: the home page, the checkout page, and the payment confirmation page.
+
+Project Structure
+home.html: The homepage displaying the list of products.
+checkout.html: The page to review the cart and proceed to payment.
+payment.html: The form to collect shipping and payment details.
+confirmation.html: The confirmation page displayed after payment submission.
+home.css: CSS file for styling the home page.
+checkout.css: CSS file for styling the checkout and payment pages.
+products.json: JSON file containing the product data.
+images/coloured_logo.png: Logo image used in the project.
+
+Usage
+View Products: The homepage (home.html) displays a list of products and details.
+
+Add to Cart: Click the "Add to Cart" button to add a product to your cart. The cart icon in the header updates to show the number of items in the cart.
+
+Checkout: Click the "Go to cart" button to proceed to the checkout page (checkout.html). This page displays a table of all products added to the 
+cart, including their details and quantities.
+
+Enter Shipping and Payment Details: On the checkout page, click "Proceed to Payment" to navigate to the payment.html. After entering shipping address 
+and payment details in the provided form. The card number field has a regex validation to ensure a 16-digit number is entered.
+
+Confirm Payment: Submit the payment form to navigate to the confirmation.html, indicating that the payment has been confirmed.
+
+Features
+Dynamic Product Display: Products are dynamically loaded from a JSON file.
+Local Storage Cart Management: Products added to the cart are stored in local storage.
+Cart Item Count: The cart icon displays the number of items in the cart.
+Checkout and Payment Forms: Forms to collect shipping and payment details with basic validation.(included web font,gif)
